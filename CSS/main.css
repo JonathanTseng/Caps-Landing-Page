@@ -57,13 +57,33 @@ a{
 html{
     box-sizing: border-box;
 }
+header{
+    padding: 30px 20px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+header:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header a{
+    text-decoration: none;
+    color: #4C44C1;
+}
 header .logo{
-    font-size: 24px;
     display: inline-block;
+    float: left;
+    margin-right: 24px;
+    
 }
 header .logo span{
     width: 30%;
     float: left;
+}
+header .logo span img{
+    width: 80px;
+    height: 60px;
 }
 header .menu-buttons{
     width: 40%;
@@ -73,8 +93,25 @@ header .menu-buttons a{
     display: inline-block;
     margin-left: 20px;
 }
-header .shopping-cons{
+header .header-buttons{
     width: 30%;
-    float: right;
     display: inline-block;
+    float: right;
+    
+}
+header .blue-btn{
+    background: #4C44C1;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+    position: relative;
+}
+header .orange-btn{
+    background: #FEA83B;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+    position: relative;
 }
