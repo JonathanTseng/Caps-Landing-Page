@@ -115,3 +115,33 @@ header .orange-btn{
     text-transform: uppercase;
     position: relative;
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;  
+    padding: 20px 0;
+}
+.top-area{
+    padding-bottom: 200px;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 22%, #a28bd3 58%, #a28bd3 65%, #a28bd3 65%, #a28bd3 65%, #a28bd3 66%, #a28bd3 66%, #a28bd3 81%, #c863d3 100%, #cf86d6 100%, #db36a4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 22%,#a28bd3 58%,#a28bd3 65%,#a28bd3 65%,#a28bd3 65%,#a28bd3 66%,#a28bd3 66%,#a28bd3 81%,#c863d3 100%,#cf86d6 100%,#db36a4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 22%,#a28bd3 58%,#a28bd3 65%,#a28bd3 65%,#a28bd3 65%,#a28bd3 66%,#a28bd3 66%,#a28bd3 81%,#c863d3 100%,#cf86d6 100%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.top-area:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.top-area .container .left-side{
+    width: 35%;
+    display: inline-block;
+    float: left;
+}
+.top-area .container .right-side{
+    width: 65%;
+    display: inline-block;
+    float: right;
+}
+.top-area .container .right-side img{
+    max-width: 100%;
+}
