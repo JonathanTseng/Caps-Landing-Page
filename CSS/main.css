@@ -61,6 +61,7 @@ header{
     padding: 30px 20px;
     font-size: 20px;
     font-weight: 600px;
+    margin-bottom: 50px;
 }
 header:after{
     content: "";
@@ -116,7 +117,7 @@ header .orange-btn{
     position: relative;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;  
     padding: 20px 0;
 }
@@ -133,15 +134,74 @@ header .orange-btn{
     clear: both;
 }
 .top-area .container .left-side{
-    width: 35%;
+    width: 40%;
     display: inline-block;
     float: left;
 }
+.top-area .left-side .info-container{
+    position: relative;
+    top: -120px;
+}
+.top-area .container .left-side .info-container h1{
+    font-size: 4.5rem;
+    color: #4C44C1;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    
+}
+.top-area .container .left-side .info-container p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5px;
+    color: #4C44C1;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-bottom: 1.1rem;
+}
+.top-area .container .left-side .large-number{
+    font-size: 300px;
+    font-weight: 700;
+    opacity: .1;
+    color: #4C44C1;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+.top-area .container .left-side .info-container .email-area{
+    background-color: white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 5px;
+}
+.top-area .container .left-side .info-container .email-area .far{
+    font-size: 2rem;
+    position: relative;
+    top: 7px;
+    margin-left: 15px;
+}
+.top-area .container .left-side .info-container .email-area input[type = "email"]{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    width: 230px;
+}
+.top-area .container .left-side .info-container .email-area button{
+    background-color: #6066F2;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+
+}
 .top-area .container .right-side{
-    width: 65%;
+    width: 60%;
     display: inline-block;
     float: right;
 }
 .top-area .container .right-side img{
     max-width: 100%;
 }
+
